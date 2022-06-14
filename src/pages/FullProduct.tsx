@@ -17,7 +17,7 @@ const FullProduct: React.FC = () => {
     async function fetchProduct() {
       try {
         const { data } = await axios.get(
-          'https://62a2da5d5bd3609cee5bd482.mockapi.io/Online' + id,
+          'https://62a2da5d5bd3609cee5bd482.mockapi.io/Online/' + id,
         );
         setProduct(data);
       } catch (error) {
