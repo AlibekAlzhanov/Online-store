@@ -11,7 +11,7 @@ const categories = [
   'Төсек',
   'Шкаф',
   'Төсек үстелі',
-  'Камот',
+  'Камоnт',
 ]
 
 export const Categories: React.FC<CategoriesProps> = React.memo(
