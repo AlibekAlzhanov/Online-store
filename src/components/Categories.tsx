@@ -7,11 +7,11 @@ type CategoriesProps = {
 
 const categories = [
   'Барлығы',
-  'Смартфон',
-  'Ноутбук',
-  'Теледидар',
-  'Монитор',
-  'Планшет',
+  'Диван',
+  'Төсек',
+  'Шкаф',
+  'Төсек үстелі',
+  'Камот',
 ]
 
 export const Categories: React.FC<CategoriesProps> = React.memo(
